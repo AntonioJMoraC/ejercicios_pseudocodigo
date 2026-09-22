@@ -130,3 +130,14 @@ Inicio
   Escribe "El total de la suma es de: " + num1
 Fin
 ```
+### Ejercicio 10
+Escribir un programa que muestre por pantalla el resultado de la siguiente operación aritmética
+```
+Inicio
+  suma = 3+2
+  multiplicacion = 2*5
+  division = 6 / 10
+  total = division * 2
+  Escribe "El total es: " + total
+Fin
+```
