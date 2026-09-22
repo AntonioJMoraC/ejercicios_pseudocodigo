@@ -73,3 +73,15 @@ Inicio
   Escribe "Precio final: " + total"
 Fin
 ```
+### Ejercicio 6
+Escribe un programa que pida el importe final de un artículo y calcule e imprima por pantalla el IVA que se ha pagado y el importe sin IVA (suponiendo que se ha aplicado un tipo de IVA del 10%).
+```text
+Inicio
+  Escribe "Introduce el importe final: "
+  Lee importe_final
+  importe_pagado = importe_final / 1,10
+  Escribe "El importe sin IVA es de: " + importe_pagado
+  iva_pagado = importe_final - importe_pagado
+  Escribe "El IVA pagado es de: " + iva_pagado
+Fin
+```
