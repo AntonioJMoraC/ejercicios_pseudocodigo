@@ -43,5 +43,16 @@ Para cada una de las expresiones siguientes, intenta adivinar el valor de la exp
 Inicio
   ancho = 17
   alto = 12.0
+Fin
+```
+### Ejercicio 4
+Escribe un programa que le pida al usuario una temperatura en grados Celsius, la convierta a grados Fahrenheit e imprima por pantalla la temperatura convertida.
+```text
+Inicio
+  Escribe "Introduce una temperatura en grados Celsius: "
+  Leer celsius
+  conversion = celsius * 1,8 + 32
+  Escribe "La temperatura es " + conversion
+Fin
 ```
 
