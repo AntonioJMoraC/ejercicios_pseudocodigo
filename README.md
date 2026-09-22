@@ -187,6 +187,22 @@ Inicio
   peso_payasos = payasos * 112
   peso_muñecas = muñecas * 75
   total = peso_payasos + peso_muñecas
-  Escribe "El peso total es de: $total g"
+  Escribe f"El peso total es de: $total g"
+Fin
+```
+### Ejercicio 15
+Imagina que acabas de abrir una nueva cuenta de ahorros que te ofrece el 4% de interés al año. Estos ahorros debido a intereses, que no se cobran hasta finales de año, se te añaden al balance final de tu cuenta de ahorros. Escribir un programa que comience leyendo la cantidad de dinero depositada en la cuenta de ahorros, introducida por el usuario. Después el programa debe calcular y mostrar por pantalla la cantidad de ahorros tras el primer, segundo y tercer años. Redondear cada cantidad a dos decimales.
+
+Calcula el interés: capital * (1 + interés)
+```text
+Inicio
+  Escribe "Introduce la cantidad de dinero depositada: "
+  Lee cantidad
+  primeraño = cantidad * (1 + 0.04)
+  segundoaño = primeraño * (1 + 0.04)
+  terceraño = segundoaño * (1 + 0.04)
+  Escribe "La cantidad de ahorros del primer año es de " + primeraño
+  Escribe "La cantidad de ahorros del segundo año es de " + segundoaño
+  Escribe "La cantidad de ahorros del tercer año es de " + terceraño
 Fin
 ```
