@@ -141,3 +141,13 @@ Inicio
   Escribe "El total es: " + total
 Fin
 ```
+### Ejercicio 11
+Escribir un programa que lea un entero positivo, n, introducido por el usuario y después muestre en pantalla la suma de todos los enteros desde 1 hasta n. La suma de los n primeros enteros positivos puede ser calculada de la siguiente forma:
+```
+Inicio
+  Escribe "Introduce un entero positivo: "
+  Lee entero
+  suma = entero * (entero + 1) / 2
+  Escribe "La suma de los " + entero + "primeros enteros es de: " + suma
+Fin
+```
