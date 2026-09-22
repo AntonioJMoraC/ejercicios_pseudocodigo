@@ -219,3 +219,16 @@ Inicio
   Escribe "El coste final es de $precio_final"
 Fin
 ```
+### Ejercicio 17
+Escribir un programa que pregunte el nombre del usuario en la consola y un número entero e imprima por pantalla en líneas distintas el nombre del usuario tantas veces como el número introducido.
+```text
+Inicio
+  Escribe "Introduce tu nombre: "
+  Leer nombre
+  Escribe "Introduce un numero: "
+  Leer num
+  Para (1..num) hacer
+    Escribe nombre
+  FinPara
+Fin
+```
