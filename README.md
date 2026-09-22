@@ -85,3 +85,18 @@ Inicio
   Escribe "El IVA pagado es de: " + iva_pagado
 Fin
 ```
+### Ejercicio 7
+Escribe un programa que solicite tres números al usuario y calcule e imprima por pantalla su suma.
+```text
+Inicio
+  Escribe "Introduce el primer número: "
+  Lee num1
+  Escribe "Introduce el segundo número: "
+  Lee num2
+  Escribe "Introduce el tercer número: "
+  Lee num3
+  suma = num1 + num2
+  suma += num3
+  Escribe "El total de la suma es de: " + suma
+Fin
+```
