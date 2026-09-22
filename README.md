@@ -100,3 +100,18 @@ Inicio
   Escribe "El total de la suma es de: " + suma
 Fin
 ```
+### Ejercicio 8
+Escribir el programa del ejercicio 1.2.7 usando solamente dos variables diferentes.
+```text
+Inicio
+  Escribe "Introduce el primer número: "
+  Lee num1
+  Escribe "Introduce el segundo número: "
+  Lee num2
+  num1 += num2
+  Escribe "Introduce el tercer número: "
+  Lee num2
+  num1 += num2
+  Escribe "El total de la suma es de: " + num1
+Fin
+```
