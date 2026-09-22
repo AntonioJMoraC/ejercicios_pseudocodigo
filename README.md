@@ -151,3 +151,14 @@ Inicio
   Escribe "La suma de los " + entero + "primeros enteros es de: " + suma
 Fin
 ```
+### Ejercicio 12
+Escribir un programa que pida al usuario su peso (en kg) y estatura (en metros), calcule el índice de masa corporal y lo almacene en una variable, y muestre por pantalla la frase Tu índice de masa corporal es donde es el índice de masa corporal calculado redondeado con dos decimales.
+```text
+Inicio
+  Escribe "Introduzca su peso en kg: "
+  Lee peso
+  Escribe "Introduzca su estatura en metros: "
+  Lee estatura
+  imc = peso / (estatura * 2)
+  Escribe "Tu índice de masa corporal es " + imc
+Fin
