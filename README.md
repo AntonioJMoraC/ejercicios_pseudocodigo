@@ -162,3 +162,16 @@ Inicio
   imc = peso / (estatura * 2)
   Escribe "Tu índice de masa corporal es " + imc
 Fin
+```
+### Ejercicio 13
+Escribir un programa que pida al usuario dos números enteros y muestre por pantalla lo siguiente: "la división de n entre m da un cociente c y un resto r", donde n y m son los números introducidos por el usuario, y c y r son el cociente y el resto de la división entera respectivamente. Trata también la división entre cero.
+```text
+Inicio
+  Escribe "Introduce un número entero: "
+  Lee num1
+  Escribe "Introduce otro número entero: "
+  Lee num2
+  cociente = num1 / num2
+  resto = num1 - (cociente * num2)
+  Escribe f"La división de $num1 entre $num2 da un cociente de $cociente y un resto de $resto"
+```
