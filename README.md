@@ -55,4 +55,21 @@ Inicio
   Escribe "La temperatura es " + conversion
 Fin
 ```
-
+### Ejercicio 5
+Escribe un programa que pida el importe sin IVA de un artículo y el tipo de IVA a aplicar y calcule e imprima por pantalla el precio final del artículo.
+```text
+Inicio
+  Escribe "Introduce el precio sin IVA: "
+  Lee precio
+  Escribe "Introduce el tipo de IVA a aplicar: "
+  Lee iva
+  Si iva == 21 entonces
+    total = precio * 1,21
+  Sino Si iva == 10 entonces
+    total = precio * 1,10
+  Sino
+    total = precio * 1,04
+  FinSi
+  Escribe "Precio final: " + total"
+Fin
+```
