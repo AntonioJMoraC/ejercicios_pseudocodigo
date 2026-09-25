@@ -5,7 +5,7 @@
 - Iniciales: AJMC
 - Asignatura: Programación
 - Correo: nmorcab2106@iesrafaelalberti.es / nmorcab2106@g.educaand.es
-- Enlace a la tarea: [ https://revilofe.github.io/section1/u01/practica/PROG-U1.-Practica002/ ]( A1.1.b - Algoritmo en pseudocódigo (RA1.a) )
+- Enlace a la tarea: https://revilofe.github.io/section1/u01/practica/PROG-U1.-Practica002/
 
 ## Ejercicios
 ### Ejercicio 1
